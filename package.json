@@ -13,12 +13,6 @@
     "test": "jest --config jest.config.mjs",
     "prepare": "npm run build"
   },
-  "keywords": [
-    "llm",
-    "prompts",
-    "ai",
-    "openai"
-  ],
   "author": "nihaocami",
   "license": "MIT",
   "devDependencies": {
@@ -34,5 +28,24 @@
     "dist",
     "README.md",
     "LICENSE"
-  ]
+  ],
+  "keywords": [
+    "prompt",
+    "llm",
+    "ai",
+    "template",
+    "openai",
+    "prompt-engineering",
+    "cli",
+    "fs",
+    "typescript"
+  ],
+  "homepage": "https://github.com/nihaocami/dotpmt",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nihaocami/dotpmt.git"
+  },
+  "bugs": {
+    "url": "https://github.com/nihaocami/dotpmt/issues"
+  }
 }
