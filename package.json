@@ -1,0 +1,29 @@
+{
+  "name": "dotpmt",
+  "version": "0.0.1",
+  "description": "Write and manage LLM prompts in .pmt files",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "test": "jest --config jest.config.mjs",
+    "prepare": "npm run build"
+  },
+  "keywords": [
+    "llm",
+    "prompts",
+    "ai",
+    "openai"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "devDependencies": {
+    "@jest/globals": "^30.0.4",
+    "@types/jest": "^30.0.0",
+    "@types/node": "^24.0.13",
+    "jest": "^30.0.4",
+    "ts-jest": "^29.4.0",
+    "typescript": "^5.8.3"
+  }
+}

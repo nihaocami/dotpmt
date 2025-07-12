@@ -1,0 +1,5 @@
+{
+  "files.associations": {
+    "*.pmt": "jinja-html"
+  }
+}
