@@ -2,10 +2,11 @@
   "name": "dotpmt",
   "version": "0.0.2",
   "description": "Write and manage LLM prompts in .pmt files",
-  "main": "./dist/index.cjs",
+  "main": "./dist/cjs/index.cjs.js",
+  "module": "./dist/esm/index.js",
   "exports": {
-    "import": "./dist/index.js",
-    "require": "./dist/index.cjs"
+    "require": "./dist/cjs/index.cjs.js",
+    "import": "./dist/esm/index.js"
   },
   "type": "module",
   "scripts": {

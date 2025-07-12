@@ -1,16 +1,15 @@
 {
   "compilerOptions": {
-    "module": "ES2022",
     "target": "ES2022",
+    "module": "ES2022",
     "moduleResolution": "bundler",
+    "outDir": "dist/esm",
+    "declaration": true,
     "esModuleInterop": true,
-    "allowSyntheticDefaultImports": true,
     "resolveJsonModule": true,
-    "sourceMap": true,
     "strict": true,
-    "outDir": "dist",
-    "rootDir": "src",
-    "declaration": true
+    "sourceMap": true,
+    "rootDir": "src"
   },
   "include": ["src"]
 }
