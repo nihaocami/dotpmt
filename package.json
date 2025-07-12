@@ -16,7 +16,7 @@
     "ai",
     "openai"
   ],
-  "author": "Your Name",
+  "author": "nihaocami",
   "license": "MIT",
   "devDependencies": {
     "@jest/globals": "^30.0.4",
